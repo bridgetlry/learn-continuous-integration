@@ -132,3 +132,4 @@ AuthorSchema.statics.getAuthorIdByName = async function (family_name: string, fi
  */
 const Author = mongoose.model<IAuthor, IAuthorModel>('Author', AuthorSchema);
 export default Author;
+
